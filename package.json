@@ -1,0 +1,28 @@
+{
+  "name": "droit-au-buty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "dev": "npx ts-node-dev --respawn --transpile-only --exit-child --watch src src/example.ts "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwannLV/droit-au-buty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwannLV/droit-au-buty/issues"
+  },
+  "homepage": "https://github.com/SwannLV/droit-au-buty#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.5.4"
+  }
+}
