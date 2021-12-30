@@ -26,7 +26,7 @@ type Rectangle = [Point, Point]
 
 export function findLargestRectangle(map: Map, centralPoint: Point): Rectangle | null {
   console.log('Point:', centralPoint)
-  console.log('Rectangle:')
+  console.log('Map:')
   map.forEach((row) => console.log(row))
 
   // If the point touches the border of the map: return null
